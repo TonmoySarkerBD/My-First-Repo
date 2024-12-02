@@ -1,7 +1,15 @@
-p{
-    background-color: aquamarine;
+nav > ul > li{
+    display: inline;
+    margin: 2rem;
 }
-h1{
-    color: red;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+nav > ul > li > a{
+    text-decoration: none;
+}
+img{
+    padding: 5rem;
+    box-shadow: 5 rem yellowgreen;
+}
+
+#main {
+    align-items: center;
 }
