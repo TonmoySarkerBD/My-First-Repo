@@ -18,3 +18,13 @@ footer{
     margin-top: 30px;
 }
 
+.drop{
+    position: absolute;
+    display: none;
+    background-color: lightgreen;
+    padding: 1px;
+}
+
+nav li:hover .drop{
+    display: block;
+}
